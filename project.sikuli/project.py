@@ -1,6 +1,7 @@
 import webbrowser
 modes = ("Add subscription", "Download renderer", "Leave mesage")
 webbrowser.open("http://www.google.com")
+#of course, I can go directly to corona, I like to click few more times in google
 wait ("1603554227762.png")
 click (Pattern("1603554227762.png").targetOffset(-59,18))
 type("corona renderer"+Key.ENTER)
